@@ -23,4 +23,4 @@ FROM tblSTUDENT AS S
 WHERE CL.Grade >= 3.6 AND CR.CourseName LIKE '%5__'
 GROUP BY S.StudentID, S.StudentFname, S.StudentLname
 HAVING COUNT(CR.CourseName) >= 4
-
+--test
